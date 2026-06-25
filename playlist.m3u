@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-epg.org"
+#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cz.xml.gz"
 
 #EXTINF:-1 tvg-id="MarkizaKlasik.sk" tvg-name="Markiza Klasik" tvg-logo="https://githubusercontent.com" group-title="Slovenské",Markíza Klasik
 https://cdnsk003.panaccess.com/local/Markiza_Klasik/index.m3u8
