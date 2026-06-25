@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="JarkoAcjak EPG">
+
+  <channel id="MarkizaKlasik.sk">
+    <display-name>Markíza Klasik</display-name>
+  </channel>
+  <channel id="JOJSport.sk">
+    <display-name>JOJ Šport</display-name>
+  </channel>
+  <channel id="JOJSport2.sk">
+    <display-name>JOJ Šport 2</display-name>
+  </channel>
+
+  <programme start="20260625023000 +0200" stop="20260625042000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Sedem s r.o.</title>
+  </programme>
+  <programme start="20260625042000 +0200" stop="20260625050500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Dereš</title>
+  </programme>
+  <programme start="20260625050500 +0200" stop="20260625060000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Aj múdry schybí</title>
+  </programme>
+  <programme start="20260625073000 +0200" stop="20260625075500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">M.A.S.H</title>
+  </programme>
+
+  <programme start="20260625151000 +0200" stop="20260625175500 +0200" channel="JOJSport.sk">
+    <title lang="sk">MS 2026 vo futbale</title>
+  </programme>
+  <programme start="20260625175500 +0200" stop="20260625184500 +0200" channel="JOJSport.sk">
+    <title lang="sk">V pozadí úspechu (60)</title>
+  </programme>
+  <programme start="20260625213000 +0200" stop="20260625215000 +0200" channel="JOJSport.sk">
+    <title lang="sk">Štúdio MS 2026 vo futbale</title>
+  </programme>
+
+</tv>
+
+
