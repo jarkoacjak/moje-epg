@@ -20,7 +20,58 @@
   <programme start="20260625050500 +0200" stop="20260625060000 +0200" channel="MarkizaKlasik.sk">
     <title lang="sk">Aj múdry schybí</title>
   </programme>
+  <programme start="20260625060000 +0200" stop="20260625073000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Aj múdry schybí</title>
+  </programme>
   <programme start="20260625073000 +0200" stop="20260625075500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">M.A.S.H</title>
+  </programme>
+  <programme start="20260625075500 +0200" stop="20260625084000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">JAG - Vojenská generálna prokuratúra</title>
+  </programme>
+  <programme start="20260625084000 +0200" stop="20260625094000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">JAG - Vojenská generálna prokuratúra</title>
+  </programme>
+  <programme start="20260625094000 +0200" stop="20260625103000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Walker, texaský ranger</title>
+  </programme>
+  <programme start="20260625103000 +0200" stop="20260625113000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Walker, texaský ranger</title>
+  </programme>
+  <programme start="20260625113000 +0200" stop="20260625132000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Angelika a kráľ</title>
+  </programme>
+  <programme start="20260625132000 +0200" stop="20260625140500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Hviezdna brána</title>
+  </programme>
+  <programme start="20260625140500 +0200" stop="20260625150000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Hviezdna brána</title>
+  </programme>
+  <programme start="20260625150000 +0200" stop="20260625155500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">JAG - Vojenská generálna prokuratúra</title>
+  </programme>
+  <programme start="20260625155500 +0200" stop="20260625165000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">JAG - Vojenská generálna prokuratúra</title>
+  </programme>
+  <programme start="20260625165000 +0200" stop="20260625174500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Kobra 11</title>
+  </programme>
+  <programme start="20260625174500 +0200" stop="20260625183500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Kobra 11</title>
+  </programme>
+  <programme start="20260625183500 +0200" stop="20260625193000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Walker, texaský ranger</title>
+  </programme>
+  <programme start="20260625193000 +0200" stop="20260625203000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Walker, texaský ranger</title>
+  </programme>
+  <programme start="20260625203000 +0200" stop="20260625210000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">M.A.S.H</title>
+  </programme>
+  <programme start="20260625210000 +0200" stop="20260625230000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Dobrodruh</title>
+  </programme>
+  <programme start="20260625230000 +0200" stop="20260625233000 +0200" channel="MarkizaKlasik.sk">
     <title lang="sk">M.A.S.H</title>
   </programme>
 
@@ -30,10 +81,97 @@
   <programme start="20260625175500 +0200" stop="20260625184500 +0200" channel="JOJSport.sk">
     <title lang="sk">V pozadí úspechu (60)</title>
   </programme>
+  <programme start="20260625184500 +0200" stop="20260625191500 +0200" channel="JOJSport.sk">
+    <title lang="sk">Tretí polčas</title>
+  </programme>
   <programme start="20260625213000 +0200" stop="20260625215000 +0200" channel="JOJSport.sk">
     <title lang="sk">Štúdio MS 2026 vo futbale</title>
   </programme>
 
-</tv>
+  <programme start="20260625161500 +0200" stop="20260625181000 +0200" channel="JOJSport2.sk">
+    <title lang="sk">Atletika - Diamantová liga</title>
+  </programme>
+  <programme start="20260625220500 +0200" stop="20260625235900 +0200" channel="JOJSport2.sk">
+    <title lang="sk">Dokument</title>
+  </programme>
 
+  <programme start="20260626021000 +0200" stop="20260626041500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Sedem s r.o.</title>
+  </programme>
+  <programme start="20260626041500 +0200" stop="20260626050000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Dereš</title>
+  </programme>
+  <programme start="20260626050000 +0200" stop="20260626060000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Aj múdry schybí</title>
+  </programme>
+  <programme start="20260626073000 +0200" stop="20260626075500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">M.A.S.H</title>
+  </programme>
+  <programme start="20260626164500 +0200" stop="20260626173500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Kobra 11</title>
+  </programme>
+  <programme start="20260626210000 +0200" stop="20260626231000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Sahara</title>
+  </programme>
+
+  <programme start="20260626180000 +0200" stop="20260626203000 +0200" channel="JOJSport.sk">
+    <title lang="sk">Atletika - Gold Continental Tour</title>
+  </programme>
+  <programme start="20260626203000 +0200" stop="20260626205000 +0200" channel="JOJSport.sk">
+    <title lang="sk">Štúdio MS 2026 vo futbale</title>
+  </programme>
+
+  <programme start="20260626202500 +0200" stop="20260626220000 +0200" channel="JOJSport2.sk">
+    <title lang="sk">Volejbal - Európska liga ženy</title>
+  </programme>
+
+  <programme start="20260627015500 +0200" stop="20260627041500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Sedem s r.o.</title>
+  </programme>
+  <programme start="20260627071500 +0200" stop="20260627073500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">M.A.S.H</title>
+  </programme>
+  <programme start="20260627073500 +0200" stop="20260627083500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Kobra 11</title>
+  </programme>
+  <programme start="20260627112500 +0200" stop="20260627121000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Stratený svet</title>
+  </programme>
+  <programme start="20260627150000 +0200" stop="20260627155500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">A-Tím</title>
+  </programme>
+  <programme start="20260627214500 +0200" stop="20260627230000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Tretí polčas</title>
+  </programme>
+
+  <programme start="20260627214500 +0200" stop="20260627223000 +0200" channel="JOJSport.sk">
+    <title lang="sk">Tretí polčas</title>
+  </programme>
+
+  <programme start="20260627040000 +0200" stop="20260627062500 +0200" channel="JOJSport2.sk">
+    <title lang="sk">2026 IIHF Majstrovstvá sveta</title>
+  </programme>
+
+  <programme start="20260628024500 +0200" stop="20260628041500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Všetci sú za dverami</title>
+  </programme>
+  <programme start="20260628071000 +0200" stop="20260628073000 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">M.A.S.H</title>
+  </programme>
+  <programme start="20260628112500 +0200" stop="20260628120500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Stratený svet</title>
+  </programme>
+  <programme start="20260628120500 +0200" stop="20260628130500 +0200" channel="MarkizaKlasik.sk">
+    <title lang="sk">Walker, texaský ranger</title>
+  </programme>
+
+  <programme start="20260628202000 +0200" stop="20260628210000 +0200" channel="JOJSport.sk">
+    <title lang="sk">Tretí polčas</title>
+  </programme>
+
+  <programme start="20260628005500 +0200" stop="20260628061000 +0200" channel="JOJSport2.sk">
+    <title lang="sk">2026 IIHF Majstrovstvá sveta</title>
+  </programme>
+
+</tv>
 
