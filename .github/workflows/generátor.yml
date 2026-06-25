@@ -1,75 +1,22 @@
-name: Aktualizacia EPG (.xml.gz)
+name: Aktualizácia EPG (.xml.gz)
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Každý deň o 04:00 UTC
-  workflow_dispatch: # Možnosť spustiť ručne kliknutím
+    - cron: '0 4 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Kontrola repozitára
+    - name: Kontrola repozitara
       uses: actions/checkout@v4
 
-    - name: Stiahnutie a filtrácia staníc pomocou Node.js
+    - name: Stiahnutie slovenskeho EPG
       run: |
-        # Použijeme rýchly skript v Node.js na presnú filtráciu XML elementov
-        node -e '
-        const fs = require("fs");
-        const https = require("https");
-
-        const allowedChannels = ["MarkizaKlasik.sk", "JOJSport.sk", "JOJSport2.sk", "klasik.markiza.sk", "sport.joj.sk", "sport2.joj.sk"];
-
-        https.get("https://github.io", (res) => {
-          let data = "";
-          res.on("data", (chunk) => { data += chunk; });
-          res.on("end", () => {
-            // Extrahujeme hlavičku, kanály, programy a pätku
-            const lines = data.split("\n");
-            let output = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n";
-            
-            // Nájdeme a zapíšeme iba povolené <channel> riadky
-            lines.forEach(line => {
-              if (line.includes("<channel id=")) {
-                if (allowedChannels.some(ch => line.includes(`id="${ch}"`))) {
-                  output += line + "\n";
-                }
-              }
-            });
-
-            // Nájdeme a zapíšeme kompletné <programme> bloky pre naše kanály
-            let inProgramme = false;
-            let currentProg = "";
-            let match = false;
-
-            lines.forEach(line => {
-              if (line.includes("<programme")) {
-                inProgramme = true;
-                currentProg = line + "\n";
-                if (allowedChannels.some(ch => line.includes(`channel="${ch}"`))) {
-                  match = true;
-                }
-              } else if (inProgramme) {
-                currentProg += line + "\n";
-                if (line.includes("</programme>")) {
-                  if (match) {
-                    output += currentProg;
-                  }
-                  inProgramme = false;
-                  match = false;
-                  currentProg = "";
-                }
-              }
-            });
-
-            output += "</tv>";
-            fs.writeFileSync("epg.xml", output);
-            console.log("EPG úspešne vyfiltrované!");
-          });
-        });
-        '
+        # Stiahnutie stabilneho zdrojoveho xml pre SK stanice
+        curl -L "https://github.io" -o epg.xml
 
     - name: Kompresia do .xml.gz
       run: |
@@ -80,6 +27,6 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add epg.xml.gz epg.xml
-        git commit -m "Oprava a aktualizácia EPG pre Markízu Klasik a JOJ Šport" || exit 0
+        git commit -m "Aktualizacia EPG dat" || exit 0
         git push
 
