@@ -1,11 +1,15 @@
-#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cz.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cz.xml"
 
 #EXTINF:-1 tvg-id="MarkizaKlasik.sk" tvg-name="Markiza Klasik" tvg-logo="https://githubusercontent.com" group-title="Slovenské",Markíza Klasik
 https://cdnsk003.panaccess.com/local/Markiza_Klasik/index.m3u8
 
-#EXTINF:-1 tvg-id="JOJSport.sk" tvg-name="JOJ Sport" tvg-logo="https://githubusercontent.com" group-title="Športové",JOJ Šport 
-https://live.cdn.joj.sk/live/andromeda/joj_sport-1080.m3u8|User-Agent=Mozilla/5.0
+#EXTINF:-1 tvg-id="JOJSport.sk" tvg-name="JOJ Sport" tvg-logo="https://githubusercontent.com" group-title="Športové",JOJ Šport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://joj.sk/
+https://live.cdn.joj.sk/live/andromeda/joj_sport-1080.m3u8
 
 #EXTINF:-1 tvg-id="JOJSport2.sk" tvg-name="JOJ Sport 2" tvg-logo="https://githubusercontent.com" group-title="Športové",JOJ Šport 2
-https://live.cdn.joj.sk/live/andromeda/joj_sport2-1080.m3u8|User-Agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://joj.sk/
+https://live.cdn.joj.sk/live/andromeda/joj_sport2-1080.m3u8
 
